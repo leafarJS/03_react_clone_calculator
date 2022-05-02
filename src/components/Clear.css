@@ -1,0 +1,20 @@
+.clear {
+  height: 4rem;
+  border-radius: 3rem;
+  font-size: 2rem;
+  display: flex;
+  flex: 1;
+  background-color: #ac0246;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: #fff;
+  border: thick solid #fff;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.clear:hover {
+  background-color: #ebb000;
+  color: #000;
+  border: thick solid #000;
+}
